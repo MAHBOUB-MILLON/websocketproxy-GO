@@ -26,3 +26,10 @@ go run proxy.go
 • PORT 80
 
 you can use screen command to run proxy
+
+
+# PAYLOAD HTTP INJECTOR 
+
+```
+POST / HTTP/1.1[crlf]Host: bughost.com[crlf]Expect: 100-continue[crlf][crlf]GET- / HTTP/1.1[crlf]Host: domaincloud.com [crlf]Upgrade: Websocket[crlf][crlf]
+```
