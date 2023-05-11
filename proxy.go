@@ -2,7 +2,8 @@
 //  Name         : Proxy Websocket 
 //  Desc         : Proxy Websocket using Golang
 //  Author       : MAHBOUB-MILLON [amirnet]
-//  Date         : 08-05-2022 ----------------------------------------------------------------------------
+//  Date         : 08-05-2022 
+----------------------------------------------------------------------------
 
 package main
 
