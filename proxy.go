@@ -2,7 +2,8 @@
 //  Name         : Proxy Websocket 
 //  Desc         : Proxy Websocket using Golang
 //  Author       : MAHBOUB-MILLON [amirnet]
-//  Date         : 08-05-2022 ----------------------------------------------------------------------------
+//  Date         : 08-05-2022 
+// ----------------------------------------------------------------------------
 
 package main
 
@@ -50,7 +51,7 @@ func main() {
             }
             
             // Return HTTP Response Switching Protocols to client
-            _, err = c.Write([]byte("HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\n\r\n"))
+            _, err = c.Write([]byte("HTTP/1.1 101 Switching Protocol\r\n\Content-Length: 1048576000000\r\n\r\n"))
             if err != nil {
                 log.Println(err)
                 return
